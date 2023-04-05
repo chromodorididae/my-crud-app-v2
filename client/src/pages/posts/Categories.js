@@ -27,7 +27,7 @@ export default function Categories() {
     return (
         <div>
             <>
-            <h1 style={{textAlign: 'center'}}>Browse by Category</h1>
+            <h1 style={{textAlign: 'center'}}>Tasty Co. Careers</h1>
             </>
 
             {/* button, x.category value - search terms, onclick */}
@@ -38,10 +38,10 @@ export default function Categories() {
                 </li>)}
             </ul> */}
 
+            
             <form>
-            <div class="form-group">
-            <h4>Submit your own recipe</h4>
-                <label for="exampleFormControlFile1">upload image here</label>
+            <div>
+            <h4>Resume/CV</h4><label for="exampleFormControlFile1"></label>
                 <br />
                 <input type="file" class="form-control-file" id="exampleFormControlFile1" />
             </div>

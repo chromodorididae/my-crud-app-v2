@@ -22,7 +22,7 @@ function Navbar({ user, setUser }) {
 
           {/* add categories */}
           <li className="categories-nav">
-            <Link to="/posts/categories">Categories</Link>
+            <Link to="/posts/categories">Careers</Link>
           </li>
 
           <li onClick={logout}>
