@@ -39,12 +39,14 @@ function Login({ setUser }) {
     }
 
     return ( 
-        <div className='user-auth'>
+        <div className='user-auth-login'>
             <h1>Login</h1>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}
+            class="login-form">
                 <label htmlFor="username">Username:</label>
                 <br />
-                <input 
+                <input
+                    class="username" 
                     type="text" 
                     id="username"
                     name="username"
@@ -55,6 +57,7 @@ function Login({ setUser }) {
                 <label htmlFor="password">Password:</label>
                 <br />
                 <input 
+                    class="password"
                     type="password" 
                     id="password"
                     name="password"
@@ -63,8 +66,9 @@ function Login({ setUser }) {
                 />
                 <br /><br />
                 {/* <button className="login-button">Submit</button> */}
+                <div class="login-submit-button">
                 <button style={{textAlign: 'center'}}>Submit</button>
-
+                </div>
             </form>
         </div>
      );

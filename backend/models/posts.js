@@ -1,21 +1,28 @@
 // const posts = [
 //     {
-//         subject: 'Once upon a time...',
-//         body: 'The end.',
-//         user: 'Bob',
+//         subject: 'Post One',
+//         body: 'Body Text Goes Here',
+//         user: 'User One',
 //         comments: []
 //     },
 //     {
-//         subject: 'To be or not to be',
-//         body: 'That is the question.',
-//         user: 'William',
+//         subject: 'Post Two',
+//         body: 'Body Text Goes Here',
+//         user: 'User Two',
 //         comments: []
 //     },
 //     {
-//         subject: 'When the world needed him most...',
-//         body: 'He vanished!',
-//         user: 'Katara',
+//         subject: 'Post Three',
+//         body: 'Body Text Goes Here',
+//         user: 'User Three',
 //         comments: []
+//     },
+//     {
+//         subject: 'Post Four',
+//         body: 'Body Text Goes Here',
+//         user: 'User Four',
+//         comments: []
+
 //     }
 // ]
 

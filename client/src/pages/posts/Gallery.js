@@ -8,7 +8,7 @@ export default function Gallery () {
         // </div>
 
 
-        <div className="parent">
+        <div className="parent" style={{paddingLeft: '50px', textAlign: 'center'}}>
             <div>1</div>
             <div>2</div>
             <div>3</div>

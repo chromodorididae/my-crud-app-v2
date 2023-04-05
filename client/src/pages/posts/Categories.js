@@ -39,7 +39,7 @@ export default function Categories() {
                 </li>)}
             </ul> */}
 
-<form>
+<form class="categories-form">
   <div class="form-group">
     <label for="inputAddress">Address</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Example St"/>
@@ -76,7 +76,7 @@ export default function Categories() {
   </div>
 </form>
             
-            <form>
+            <form class="resume-form">
             <div>
             <h4>Resume/CV</h4><label for="exampleFormControlFile1"></label>
                 <br />
