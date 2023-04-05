@@ -25,6 +25,10 @@ function Navbar({ user, setUser }) {
             <Link to="/posts/categories">Careers</Link>
           </li>
 
+          <li className="gallery-nav">
+            <Link to="/posts/gallery">Gallery</Link>
+          </li>
+
           <li onClick={logout}>
             <Link to="/login">Logout</Link>
           </li>

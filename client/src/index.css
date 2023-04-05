@@ -1,13 +1,25 @@
+
+
+p {
+  padding-left: 10px;
+}
+
 img {
   position: relative;
-  /* left: 400px;
-  margin-top: 20px; */
+  padding-left: 10px
+  /* margin-top: 20px; */
   /* right: 500px */
 }
 
 html {
   background-color: tan;
   /* background-color: beige; */
+
+}
+
+h1 {
+  /* padding-left: 135px; */
+  padding-left: 27px;
 
 }
 
@@ -48,8 +60,8 @@ button {
   /* submit button */
   border-radius: 20px;
   /* margin-left: 100px; */
-  /* margin-right: 35px; */
-  margin-left: 225px;
+  margin-right: 35px;
+  margin-left: 10px;
 
 }
 #new-post {
@@ -334,10 +346,15 @@ li.posts-nav {
 
 li.new-posts-nav {
   position: absolute;
-  left: 100px;
+  left: 80px;
 }
 
 li.categories-nav {
   position: absolute;
-  left: 200px;
+  left: 170px;
+}
+
+li.gallery-nav {
+  position: absolute;
+  left: 250px;
 }

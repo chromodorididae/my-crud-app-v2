@@ -48,9 +48,15 @@ function Index({ user }) {
     return (
             <div>
                 {/* <h1 style={{textAlign: 'center'}}>Index View</h1> */}
-                <h1 style={{textAlign: 'center', marginLeft: '10px'}}>Cooking Forum</h1>
-                <center><img src="https://media.tenor.com/ZfyUFp30ryMAAAAC/making-ratatouille-two-plaid-aprons.gif" alt="two-plaid-aprons-ratatouille"></img></center>
+                <h1 style={{textAlign: 'left'}}>Cooking Forum</h1>
+                <img src="https://media.tenor.com/ZfyUFp30ryMAAAAC/making-ratatouille-two-plaid-aprons.gif" alt="two-plaid-aprons-ratatouille"></img>
                 <br />
+                <div class="about">
+                <p>
+                    <h2>About this site:</h2>
+                lorem ipsum
+                </p>
+                </div>
 
                 {/* category filter buttons */}
 
