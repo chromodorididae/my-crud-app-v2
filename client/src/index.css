@@ -310,6 +310,7 @@ ul.user-auth {
 
 ul.user-auth li {
   margin-left: 50px;
+  font-weight: bold;
 }
 
 .user-auth h1 {
