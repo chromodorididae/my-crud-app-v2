@@ -27,17 +27,26 @@ export default function Categories() {
     return (
         <div>
             <>
-            <h1>Browse by Category</h1>
-            display all categories - link to posts with specific category
+            <h1 style={{textAlign: 'center'}}>Browse by Category</h1>
             </>
 
             {/* button, x.category value - search terms, onclick */}
-            <ul>
+            {/* <ul>
                 {category.map((x, index) =>
                 <li>
                     {x.category}
                 </li>)}
-            </ul>
+            </ul> */}
+
+            <form>
+            <div class="form-group">
+            <h4>Submit your own recipe</h4>
+                <label for="exampleFormControlFile1">upload image here</label>
+                <br />
+                <input type="file" class="form-control-file" id="exampleFormControlFile1" />
+            </div>
+            </form>
+            <button>submit</button>
             
 
             {/* postSchema: subject, body, user, category */}
