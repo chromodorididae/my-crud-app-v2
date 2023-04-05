@@ -48,7 +48,7 @@ function Index({ user }) {
     return (
             <div>
                 {/* <h1 style={{textAlign: 'center'}}>Index View</h1> */}
-                <h1 style={{textAlign: 'center'}}>Cooking Forum</h1>
+                <h1 style={{textAlign: 'center', marginLeft: '10px'}}>Cooking Forum</h1>
                 <center><img src="https://media.tenor.com/ZfyUFp30ryMAAAAC/making-ratatouille-two-plaid-aprons.gif" alt="two-plaid-aprons-ratatouille"></img></center>
                 <br />
 
