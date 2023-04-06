@@ -30,7 +30,7 @@ export default function Categories() {
             <h1 style={{textAlign: 'center'}}>Tasty Co. Careers</h1>
             <h6 style={{textAlign: 'center', fontStyle: 'italic'}}>bootstrap form</h6>
             </>
-
+            
             {/* button, x.category value - search terms, onclick */}
             {/* <ul>
                 {category.map((x, index) =>
@@ -41,6 +41,7 @@ export default function Categories() {
 
 <form class="categories-form">
   <div class="form-group">
+  <h3>Personal Information</h3>
     <label for="inputAddress">Address</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Example St"/>
   </div>
@@ -75,10 +76,20 @@ export default function Categories() {
     </div>
   </div>
 </form>
+
+<div className="job-list" style={{textAlign: 'left', marginLeft: '50px'}}>
+            <h3>Desired Position</h3>
+            <input type="radio" id="writer" name="position" value="Writer"/>
+            <label for="writer">Writer</label><br/>
+            <input type="radio" id="chef" name="position" value="Chef"/>
+            <label for="chef">Chef</label><br/>
+            <input type="radio" id="marketer" name="position" value="Marketer"/>
+            <label for="marketer">Marketer</label>
+            </div>
             
             <form class="resume-form">
             <div>
-            <h4>Resume/CV</h4><label for="exampleFormControlFile1"></label>
+            <h3>Resume/CV</h3><label for="exampleFormControlFile1"></label>
                 <br />
                 <input type="file" class="form-control-file" id="exampleFormControlFile1" />
             </div>
