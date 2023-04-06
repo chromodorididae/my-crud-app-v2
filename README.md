@@ -1,6 +1,7 @@
 # my-crud-app-v2
 
 Introduction: A paragraph used to introduce interested parties to the project and needs to include one or more screenshots.
+![Screenshot](screenshot.png)
 This project uses JWT tokens to authenticate users. Most site functionality is limited to registered users.
 Passwords are hashed using bcrypt and stored in MongoDB with other user data.
 Following login, users may filter through different categories or tags of dishes as well as enter additional information on a mock application page.
