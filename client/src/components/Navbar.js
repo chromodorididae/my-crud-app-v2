@@ -13,7 +13,8 @@ function Navbar({ user, setUser }) {
         <>
           <li style={{ color: "black" }}>Welcome {user}!</li>
           <li className="posts-nav">
-            <Link to="/posts">Home</Link>
+          
+            <Link to="/posts"><i class="bi bi-house-fill"></i></Link>
           </li>
           <br />
           <li className="new-posts-nav">
@@ -29,8 +30,12 @@ function Navbar({ user, setUser }) {
             <Link to="/posts/gallery">Announcements</Link>
           </li>
 
+          <li>
+            <Link to="/posts/shop"><i class="bi bi-cart-check-fill"></i></Link>
+          </li>
+
           <li onClick={logout}>
-            <Link to="/login">Logout</Link>
+            <Link to="/login"><i class="bi bi-door-closed-fill"></i></Link>
           </li>
         </>
        : 

@@ -48,7 +48,7 @@ function Index({ user }) {
     return (
             <div>
                 {/* <h1 style={{textAlign: 'center'}}>Index View</h1> */}
-                <h1 style={{textAlign: 'center'}}>Cooking Forum</h1>
+                <h1 className="main-title" style={{textAlign: 'center'}}>Tasty Co. Cooking Forum</h1>
                 <center><img src="https://media.tenor.com/ZfyUFp30ryMAAAAC/making-ratatouille-two-plaid-aprons.gif" alt="two-plaid-aprons-ratatouille"></img></center>
                 <br />
 
@@ -92,6 +92,44 @@ function Index({ user }) {
                     } */}
     
                 </div>
+
+
+                    {/* footer goes here */}
+                    {/* bootstrap icons */}
+                    <footer>
+                        <a href="google.com">
+                            Call Us
+                            <br />
+                            <i class="bi bi-telephone-fill"></i>
+                        </a>
+                        <a href="google.com">
+                            Email Us
+                            <br />
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                        <a href="google.com">
+                            View Our Awards
+                            <br />
+                            <i class="bi bi-award"></i>
+                        </a>
+                        <a href="google.com">
+                            Calendar
+                            <br />
+                            <i class="bi bi-calendar3"></i>
+                        </a>
+                        <a href="google.com">
+                            Bootstrap Icons
+                            <br />
+                            <i class="bi bi-bootstrap-fill"></i>
+                        </a>
+                        <a href="google.com">
+                            Legal
+                            <br />
+                            <i class="bi bi-file-earmark"></i>
+                        </a>
+                    </footer>
+
+
             </div>
     )
 }
