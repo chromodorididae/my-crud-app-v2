@@ -2,9 +2,13 @@
 
 Introduction: A paragraph used to introduce interested parties to the project and needs to include one or more screenshots.
 ![Screenshot](screenshot.png)
+<br />
 This project uses JWT tokens to authenticate users. Most site functionality is limited to registered users.
+<br />
 Passwords are hashed using bcrypt and stored in MongoDB with other user data.
+<br />
 Following login, users may filter through different categories or tags of dishes as well as enter additional information on a mock application page.
+<br />
 Only registered users may post comments and only the original commentor may edit or delete their post.
 
 Technologies Used: A list of all technologies, libraries, APIs, etc. used in the project.
