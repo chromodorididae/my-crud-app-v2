@@ -32,7 +32,8 @@ function Edit() {
             <div className='buttons' style={{ flexDirection: 'column' }}>
                 <form onSubmit={handleSubmit}>
                     <div className="edit-body">
-                    <label htmlFor="clr">Body:</label><br />
+                    <label htmlFor="clr">
+                        </label><br />
                     <textarea ref={bodyRef} id="clr" cols="30" rows="10" defaultValue={comment.body} /><br /><br />
                     </div>
                     <button style={{marginLeft: '700px'}}>Submit</button>

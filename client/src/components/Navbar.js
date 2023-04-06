@@ -26,7 +26,7 @@ function Navbar({ user, setUser }) {
           </li>
 
           <li className="gallery-nav">
-            <Link to="/posts/gallery">Gallery</Link>
+            <Link to="/posts/gallery">Announcements</Link>
           </li>
 
           <li onClick={logout}>
