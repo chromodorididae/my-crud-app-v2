@@ -27,8 +27,7 @@ export default function Categories() {
     return (
         <div>
             <>
-            <h1 style={{textAlign: 'center'}}>Tasty Co. Careers</h1>
-            <h6 style={{textAlign: 'center', fontStyle: 'italic'}}>bootstrap form</h6>
+            <h1 className="career-title" style={{textAlign: 'center'}}>Tasty Co. Careers</h1>
             </>
             
             {/* button, x.category value - search terms, onclick */}

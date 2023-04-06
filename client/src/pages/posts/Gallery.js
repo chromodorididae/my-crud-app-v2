@@ -4,7 +4,7 @@ export default function Gallery () {
     return (
 
         <div>
-            <h1 style={{textAlign: 'center'}}>Gallery</h1>
+            <h1 className="announcements-title" style={{textAlign: 'center'}}>Announcements</h1>
         {/* <br /><br /> */}
 <div class="card-group">
   <div class="card">

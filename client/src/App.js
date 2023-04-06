@@ -19,6 +19,7 @@ import Login from './pages/users/Login';
 import Navbar from './components/Navbar';
 import Categories from './pages/posts/Categories';
 import Gallery from './pages/posts/Gallery';
+import Shop from './pages/posts/Shop';
 //import search
 // import Searchbar from './components/Searchbar';
 
@@ -63,6 +64,7 @@ function App() {
             <>
             {/* logged in */}
               <Route path='/posts/categories' element={<Categories user={loggedIn} />} />
+              <Route path='/posts/shop' element={<Shop user={loggedIn} />} />
               <Route path='/posts/gallery' element={<Gallery user={loggedIn} />} />
               <Route path='/posts/new' element={<NewPost user={loggedIn} />} />
               <Route path='/posts/:id/edit' element={<EditPost />} />

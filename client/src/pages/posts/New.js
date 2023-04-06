@@ -25,7 +25,7 @@ function New({ user }) {
 
     return ( 
         <div>
-            <h1 style={{textAlign: 'center'}}>New Post</h1>
+            <h1 className="new-post-title" style={{textAlign: 'center'}}>New Post</h1>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="nme">Subject:</label><br />
                 <input type="text" id="nme" ref={subjectRef} /><br /><br />

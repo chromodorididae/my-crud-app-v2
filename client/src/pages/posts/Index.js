@@ -49,7 +49,7 @@ function Index({ user }) {
             <div>
                 {/* <h1 style={{textAlign: 'center'}}>Index View</h1> */}
                 <h1 className="main-title" style={{textAlign: 'center'}}>Tasty Co. Cooking Forum</h1>
-                <center><img src="https://media.tenor.com/ZfyUFp30ryMAAAAC/making-ratatouille-two-plaid-aprons.gif" alt="two-plaid-aprons-ratatouille"></img></center>
+                <center><img style={{borderRadius: '100px', marginTop: '20px'}} src="https://media.tenor.com/ZfyUFp30ryMAAAAC/making-ratatouille-two-plaid-aprons.gif" alt="two-plaid-aprons-ratatouille"></img></center>
                 <br />
 
                 {/* category filter buttons */}

@@ -1,3 +1,39 @@
+
+
+/* div.row {
+  background-color: bisque;
+}
+
+div.col-lg-4.col-xl-3 {
+  margin-top: 50px;
+  background-color: bisque;
+}
+
+div.col-md-6.col-lg-4.col-xl-6 {
+  background-color: bisque;
+  margin-top: 50px;
+} */
+
+div.card-body.p-4 {
+  background-color: bisque;
+}
+
+h1.shop-title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1.announcements-title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+h1.new-post-title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+h1.career-title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h1.main-title {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
