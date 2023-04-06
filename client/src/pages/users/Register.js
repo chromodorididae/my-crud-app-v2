@@ -40,11 +40,13 @@ function Register({ setUser }) {
 
     return ( 
         <div className="user-auth">
-            <h1>Register</h1>
-            <form onSubmit={handleSubmit}>
-                <label htmlFor="username">Username:</label>
+            <h1 className="register-title">REGISTER</h1>
+            <form className="register-form" onSubmit={handleSubmit}>
+                <label className="register-username-text" htmlFor="username">Username:</label>
                 <br />
-                <input 
+                <input
+                    className="register-username" 
+                    style={{borderRadius: '20px'}}
                     type="text" 
                     id="username"
                     name="username"
@@ -52,9 +54,11 @@ function Register({ setUser }) {
                     value={form.username}
                 />
                 <br /><br />
-                <label htmlFor="email">Email:</label>
+                <label className="register-email-text" htmlFor="email">Email:</label>
                 <br />
                 <input 
+                    className="register-email"
+                    style={{borderRadius: '20px'}}
                     type="email" 
                     id="email"
                     name="email"
@@ -62,9 +66,11 @@ function Register({ setUser }) {
                     value={form.email}
                 />
                 <br /><br />
-                <label htmlFor="password">Password:</label>
+                <label className="register-password-text" htmlFor="password">Password:</label>
                 <br />
                 <input 
+                    className="register-password"
+                    style={{borderRadius: '20px', textAlign: 'left'}}
                     type="password" 
                     id="password"
                     name="password"

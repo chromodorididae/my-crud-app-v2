@@ -536,3 +536,40 @@ input.password {
 .resume-button {
   margin-left: 700px
 }
+
+/* div.register-form {
+  border-radius: 20px;
+} */
+
+form.register-form {
+  border-style: none;
+  margin-right: 200px;
+  padding: 50px
+}
+
+input.register-username {
+  width: 200%
+}
+
+input.register-email {
+  width: 200%
+}
+
+input.register-password {
+  width: 200%
+}
+
+label.register-password-text {
+    padding-right: 120px;
+}
+label.register-username-text {
+  padding-right: 120px;
+}
+label.register-email-text {
+  padding-right: 140px;
+}
+
+h1.register-title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 50px;
+}
