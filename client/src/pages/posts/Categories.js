@@ -83,8 +83,9 @@ export default function Categories() {
                 <input type="file" class="form-control-file" id="exampleFormControlFile1" />
             </div>
             </form>
-            <button>submit</button>
-            
+            <div class="resume-button">
+            <button>Submit</button>
+            </div>
 
             {/* postSchema: subject, body, user, category */}
             <Link>

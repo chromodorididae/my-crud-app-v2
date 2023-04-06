@@ -31,14 +31,14 @@ function Edit() {
             <h1 style={{textAlign: 'center'}}>Edit Comment</h1>
             <div className='buttons' style={{ flexDirection: 'column' }}>
                 <form onSubmit={handleSubmit}>
-
+                    <div className="edit-body">
                     <label htmlFor="clr">Body:</label><br />
                     <textarea ref={bodyRef} id="clr" cols="30" rows="10" defaultValue={comment.body} /><br /><br />
-
-                    <button>Submit</button>
+                    </div>
+                    <button style={{marginLeft: '700px'}}>Submit</button>
                 </form>
                 <Link to={`/posts/${params.id}`}>
-                    <button>Back</button>
+                    <button style={{marginLeft: '700px'}}>Back</button>
                 </Link>
             </div>
         </div>

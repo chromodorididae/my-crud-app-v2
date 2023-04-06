@@ -55,7 +55,7 @@ function Index({ user }) {
                 {/* category filter buttons */}
                 <div class="index-buttons">
                 <button onClick={filterByEntree}>
-                    Entree
+                    Entrees
                 </button>
                 
                 <button onClick={filterBySalad}>
