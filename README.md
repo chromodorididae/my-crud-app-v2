@@ -1,6 +1,7 @@
 # my-crud-app-v2
 
 Introduction: A paragraph used to introduce interested parties to the project and needs to include one or more screenshots.
+<br />
 ![Screenshot](screenshot.png)
 <br />
 This project uses JWT tokens to authenticate users. Most site functionality is limited to registered users.
