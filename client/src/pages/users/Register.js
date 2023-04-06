@@ -77,8 +77,28 @@ function Register({ setUser }) {
                     onChange={handleChange}
                     value={form.password}
                 />
-                <br /><br />
-                <button>Submit</button>
+                {/* <br /><br/>
+                <label className="register-position-text" htmlFor="password">Password:</label>
+                <input 
+                    className="register-position"
+                    style={{borderRadius: '20px', textAlign: 'left'}}
+                    type="position" 
+                    id="position"
+                    name="password"
+                    onChange={handleChange}
+                    value={form.position}
+                />
+                <br /><br /> */}
+                {/* <br /><br/>
+                <label style={{marginRight: '40px', paddingBottom: '20px', paddingRight: '10px'}} for="department">Select a Department:</label>
+                <select style={{borderRadius: '20px', height: '30px', width: '250px'}} name="position" id="position">
+                <option value="Chef">Chef</option>
+                <option value="Writer">Writer</option>
+                <option value="Developer">Developer</option>
+                <option value="Employee" selected>Employee</option>
+                </select> */}
+                
+                <button style={{marginTop: '30px'}}>Submit</button>
             </form>
         </div>
      );

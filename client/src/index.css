@@ -378,19 +378,25 @@ textarea {
   margin: 0;
 }
 
+/* comment box */
 .comm {
   padding-left: 40px;
   margin: 5px;
   margin-left: 20px;
-  border-left: 1px solid black;
-  border-color: grey;
+  /* border-left: 1px solid black; */
+  border-bottom: 1px solid black;
+  /* border-color: grey; */
+  padding-bottom: 20px;
   position: relative;
 }
 
 .comm div:nth-child(1) {
-  opacity: .3;
+  /* opacity: .3; */
+  color: brown;
   margin-left: -20px;
-  font-size: 10pt;
+  font-size: 15pt;
+  margin-bottom: 10px;
+
 }
 
 .comm input {
@@ -544,7 +550,7 @@ input.password {
 form.register-form {
   border-style: none;
   margin-right: 200px;
-  padding: 50px
+  padding: 30px
 }
 
 input.register-username {
@@ -571,5 +577,29 @@ label.register-email-text {
 
 h1.register-title {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding-top: 50px;
+  padding-top: 30px;
 }
+
+i.bi.bi-tag {
+  padding-right: 5px;
+}
+
+button.btn.btn-primary {
+  border-style: none;
+  background-color: brown;
+  margin-left: 550px
+}
+
+img.shop-gif {
+ height: 20%;
+ width: 20%;
+ /* margin-bottom: -20px */
+}
+
+/* form.form-inline {
+  padding: -20px
+} */
+
+/* form-inline {
+  padding-top: -20px
+} */

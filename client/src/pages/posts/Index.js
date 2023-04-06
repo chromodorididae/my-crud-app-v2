@@ -80,7 +80,9 @@ function Index({ user }) {
                                     <strong>{post.subject}</strong>
                                     {/* add category here */}
                                     <br /><br />
-                                    <i>Filed Under: {post.category}</i>
+                                    <i>
+                                    <i class="bi bi-tag"></i>
+                                    Filed Under: {post.category}</i>
                                 </div>
                             </Link>
                         )}
@@ -97,32 +99,32 @@ function Index({ user }) {
                     {/* footer goes here */}
                     {/* bootstrap icons */}
                     <footer>
-                        <a href="google.com">
+                        <a href="https://www.google.com/">
                             Call Us
                             <br />
                             <i class="bi bi-telephone-fill"></i>
                         </a>
-                        <a href="google.com">
+                        <a href="https://www.google.com/">
                             Email Us
                             <br />
                             <i class="bi bi-envelope"></i>
                         </a>
-                        <a href="google.com">
+                        <a href="https://www.google.com/">
                             View Our Awards
                             <br />
                             <i class="bi bi-award"></i>
                         </a>
-                        <a href="google.com">
+                        <a href="https://www.google.com/">
                             Calendar
                             <br />
                             <i class="bi bi-calendar3"></i>
                         </a>
-                        <a href="google.com">
+                        <a href="https://www.google.com/">
                             Bootstrap Icons
                             <br />
                             <i class="bi bi-bootstrap-fill"></i>
                         </a>
-                        <a href="google.com">
+                        <a href="https://www.google.com/">
                             Legal
                             <br />
                             <i class="bi bi-file-earmark"></i>

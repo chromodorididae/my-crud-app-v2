@@ -14,8 +14,8 @@
 // };
 
 // if (searchInput.length > 0) {
-//     countries.filter((country) => {
-//     return country.name.match(searchInput);
+//     category.filter((country) => {
+//     return category.name.match(searchInput);
 // });
 // }
 

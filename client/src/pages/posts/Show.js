@@ -66,10 +66,10 @@ function Show({ user }) {
                                     <div>{comment.body}</div>
                                     {comment.user === user &&
                                         <>
-                                            <button style={{marginLeft: '700px', marginTop: '170px', width: '20%'}} onClick={() => handleDeleteComment(comment)}>Delete Comment</button>
+                                            <button style={{marginLeft: '700px', marginTop: '120px', width: '20%'}} onClick={() => handleDeleteComment(comment)}>Delete Comment</button>
                                             <br /><br />
                                             
-                                            <button style={{marginLeft: '380px', marginTop: '170px', width: '20%'}}>
+                                            <button style={{marginLeft: '380px', marginTop: '120px', width: '20%', textDecoration: 'underline'}}>
                                             <Link to={`/posts/${post._id}/comments/${comment._id}`}>
                                                 Edit Comment</Link>
                                             </button>
