@@ -1,4 +1,6 @@
-
+h1.login-title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 /* div.row {
   background-color: bisque;
@@ -113,7 +115,7 @@ a {
   margin-bottom: 10px
 }
 
-/* .login-submit-button {
+/*.login-submit-button {
   margin-left: 350px
 } */
 
@@ -225,6 +227,8 @@ textarea {
   padding: 50px;
   /* box-shadow: 5px 4px #e9e9e9; */
   position: relative;
+
+  
   
 
 }
@@ -515,7 +519,7 @@ input.password {
 }
 
 .login-form {
-  padding: 100px;
+  /* padding: 50px; */
   margin-right: 200px  
 }
 

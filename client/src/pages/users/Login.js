@@ -40,7 +40,7 @@ function Login({ setUser }) {
 
     return ( 
         <div className='user-auth-login'>
-            <h1>Login</h1>
+            <h1 class="login-title" style={{marginTop: '100px'}}>LOGIN</h1>
             <form onSubmit={handleSubmit}
             class="login-form">
                 <label htmlFor="username">Username:</label>
